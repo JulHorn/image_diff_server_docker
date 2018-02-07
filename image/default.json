@@ -1,0 +1,21 @@
+{
+	"server":{
+		"port":"3000",
+		"timeoutInMs": 600000,
+		"workingMode": 0,
+		"maxNumberOfStoredJobs": 1
+	},
+	"images":{
+		"referenceImageFolder":".\\public\\images\\reference",
+		"newImageFolder":".\\public\\images\\new",
+		"resultImageFolder":".\\public\\images\\diff",
+		"dataFolderPath":".\\data"
+	},
+	"thresholds":{
+		"maxPercentualImagePixelDifference": 0.15,
+		"maxImageImageDistanceDifference": 0.15
+	},
+	"options": {
+		"autoCrop":false
+	}
+}
