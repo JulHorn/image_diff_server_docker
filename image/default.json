@@ -3,7 +3,7 @@
 		"port":"3000",
 		"timeoutInMs": 600000,
 		"workingMode": 0,
-		"maxNumberOfStoredJobs": 1
+		"maxNumberOfStoredJobs": 10
 	},
 	"images":{
 		"referenceImageFolder":"./public/images/reference",
@@ -12,8 +12,8 @@
 		"dataFolderPath":"./data"
 	},
 	"thresholds":{
-		"maxPercentualImagePixelDifference": 0.15,
-		"maxImageImageDistanceDifference": 0.15
+		"maxPercentualImagePixelDifference": 0.05,
+		"maxImageImageDistanceDifference": 0.05
 	},
 	"options": {
 		"autoCrop":false

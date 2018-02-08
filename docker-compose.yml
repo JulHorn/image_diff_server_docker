@@ -5,6 +5,9 @@ services:
         build: image
         ports:
             - "3000:3000"
+        volumes:
+           - image_data_volume:/imageDiffServer/data
+           - image_data_volume:/imageDiffServer/public/images
 
 volumes:
-    app-volume:
+    image_data_volume:
